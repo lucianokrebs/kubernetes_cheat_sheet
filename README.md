@@ -1,6 +1,6 @@
 ## Kubernetes cheat sheet
 
-wip
+WIP - Kubernetes cheat sheet to help speed up development
 
 ### minikube basic commands
 
@@ -25,3 +25,9 @@ kubectl create deployment $DEPLOYMENT_NAME --image=gcr.io/google-samples/kuberne
 kubectl logs -f $POD_NAME
 kubectl exec -ti $POD_NAME -- bash
 ```
+
+### Resources
+
+- [Kubernetes on IntelliJ IDEA](https://www.jetbrains.com/help/idea/kubernetes.html)
+- [Pushing a Docker container image to Docker Hub](https://docs.docker.com/docker-hub/repos)
+- [Minikube docs](https://minikube.sigs.k8s.io/docs/)
